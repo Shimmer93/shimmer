@@ -1,8 +1,8 @@
 ---
-title: 静香为什么会嫁给大雄
+title: jiushishi
 date: 2019-08-08 11:33:00 +0800
-categories: [人物]
-tags: [哆啦A梦, 大雄, 静香]
+categories: [shi]
+tags: []
 ---
 
 ![](https://pica.zhimg.com/80/v2-41c3efefb6cfb47dac4db1b094450d6a_1440w.jpg?source=1940ef5c)
