@@ -4,7 +4,7 @@ import shutil
 
 FRONT_MATTER = '''---
 title: {0}
-date: {1}
+date: {1} +0800
 categories: [{2}]
 tags: []
 ---
