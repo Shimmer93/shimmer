@@ -3,9 +3,11 @@
 -
   type: bilibili
   icon: 'fab fa-bilibili'
+  url: 'https://space.bilibili.com/319266642'
 -
   type: zhihu
   icon: 'fab fa-zhihu'
+  url: 'https://www.zhihu.com/people/shi_mmer'
 -
   type: email
   icon: 'fas fa-envelope'
