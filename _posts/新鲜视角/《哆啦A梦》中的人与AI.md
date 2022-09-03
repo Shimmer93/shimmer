@@ -55,7 +55,6 @@ tags: [漫画, 细思极恐]
 不要以为它只是说说，最后它也真的这样做了……
 
 ![](https://pic3.zhimg.com/80/v2-7c2937808056954ded651817ad800811_1440w.png?source=c8b7c179)
-
   
 
 ![](https://pic2.zhimg.com/80/v2-a66481d3d0be078b54522eeb9cdc0293_1440w.png?source=c8b7c179)
@@ -113,7 +112,9 @@ tags: [漫画, 细思极恐]
 ![](https://picx.zhimg.com/80/v2-299405729e9819006765b78ec810e4ce_1440w.png?source=c8b7c179)
 
 从零开始，从原始时代开始，这是藤子老师给出的解决之道。
-<br/>
+
+  
+
 
 那么这种灾难是否会发生在地球人身上？
 

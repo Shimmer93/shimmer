@@ -21,7 +21,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Shimmer的哆啦A梦世界                          # the main title
+title: Shimmer与哆啦A梦                          # the main title
 
 tagline: 有一点不可思议的世界   # it will display as the sub-title
 
@@ -31,11 +31,11 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://shimmer93.github.io'
 
-github:
-  username: Shimmer93             # change to your github username
+bilibili:
+  username: 哆啦A梦的壁橱             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+zhihu:
+  username: Shimmer            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,8 +44,8 @@ social:
   email: 461415949@qq.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - #https://twitter.com/username      # change to your twitter homepage
-    - #https://github.com/username       # change to your github homepage
+    - https://space.bilibili.com/319266642
+    - https://www.zhihu.com/people/shi_mmer
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/imgs/avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
