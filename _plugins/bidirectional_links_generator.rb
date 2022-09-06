@@ -5,9 +5,9 @@ class BidirectionalLinksGenerator < Jekyll::Generator
     graph_edges = []
 
     all_notes = site.posts.docs
-    all_pages = site.pages
+    # all_pages = site.pages
 
-    all_docs = all_notes + all_pages
+    all_docs = all_notes #+ all_pages
 
     link_extension = ''
 
@@ -16,10 +16,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
     all_docs.each do |current_note|
       all_docs.each do |note_potentially_linked_to|
         note_title_regexp_pattern = Regexp.escape(
-          File.basename(
-            note_potentially_linked_to.basename,
-            File.extname(note_potentially_linked_to.basename)
-          )
+          note_potentially_linked_to.title
         ).gsub('\_', '[ _]').gsub('\-', '[ -]').capitalize
 
         title_from_data = note_potentially_linked_to.data['title']
