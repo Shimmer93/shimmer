@@ -36,7 +36,9 @@ if __name__ == '__main__':
         if category not in posts_categories:
             os.makedirs(os.path.join(POSTS_PATH, category))
         vault_files = os.listdir(os.path.join(VAULT_PATH, category))
+        posts_files = os.listdir(os.path.join(POSTS_PATH, category))
         for file in vault_files:
-            if file not in posts_categories:
+            if file not in posts_files:
                 shutil.copy(os.path.join(VAULT_PATH, category, file), os.path.join(POSTS_PATH, category))
                 edit_md(os.path.join(POSTS_PATH, category, file), category)
+                print(f'created file {category}/{file}')
