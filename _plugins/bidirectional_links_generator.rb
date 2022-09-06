@@ -16,7 +16,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
     all_docs.each do |current_note|
       all_docs.each do |note_potentially_linked_to|
         note_title_regexp_pattern = Regexp.escape(
-          note_potentially_linked_to.title
+          note_potentially_linked_to.data['title']
         ).gsub('\_', '[ _]').gsub('\-', '[ -]').capitalize
 
         title_from_data = note_potentially_linked_to.data['title']
