@@ -96,10 +96,11 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       end
     end
 
-    File.write('_includes/notes_graph.json', JSON.dump({
+    File.open('_includes/notes_graph.json', 'w') {|f| f.write(JSON.dump({
       edges: graph_edges,
       nodes: graph_nodes,
-    }))
+    })) }
+
   end
 
   def note_id_from_note(note)
