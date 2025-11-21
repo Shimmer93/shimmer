@@ -40,10 +40,10 @@ def process_markdown_file(md_file_path):
     if not md_file.exists():
         print(f"File not found: {md_file_path}")
         return
-    
-    # Create images directory in assets/img (relative to repo root)
+
+    # Create images directory in shimmer/assets/img/intext (relative to repo root)
     repo_root = Path(__file__).parent.parent  # Go up from tools/ to repo root
-    images_dir = repo_root / "assets" / "img"
+    images_dir = repo_root / "shimmer" / "assets" / "img" / "intext"
     
     # Read the markdown content
     with open(md_file, 'r', encoding='utf-8') as f:
