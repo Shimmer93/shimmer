@@ -24,7 +24,7 @@ def edit_md(fn, category):
         f.write(fm+'\n\n'+content)
 
 if __name__ == '__main__':
-    VAULT_PATH = r'C:\Users\pzx20\OneDrive - HKUST Connect\Doraemon\文集\文集'
+    VAULT_PATH = r'C:\Users\pzx20\OneDrive\Doraemon\文集'
     POSTS_PATH = r'E:\Repos\shimmer\_posts'
 
     vault_categories = os.listdir(VAULT_PATH)
