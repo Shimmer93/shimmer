@@ -43,7 +43,7 @@ def process_markdown_file(md_file_path):
 
     # Create images directory in shimmer/assets/img/intext (relative to repo root)
     repo_root = Path(__file__).parent.parent  # Go up from tools/ to repo root
-    images_dir = repo_root / "shimmer" / "assets" / "img" / "intext"
+    images_dir = repo_root / "assets" / "img" / "intext"
     
     # Read the markdown content
     with open(md_file, 'r', encoding='utf-8') as f:
@@ -73,7 +73,7 @@ def process_markdown_file(md_file_path):
             
             # Replace the URL in content
             old_link = match.group(0)
-            new_link = f"![{alt_text}]({relative_path})"
+            new_link = f"![{alt_text}]({relative_path.replace('assets', 'shimmer/assets')})"
             content = content.replace(old_link, new_link)
             print(f"Replaced with: {relative_path}")
     
